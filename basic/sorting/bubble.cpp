@@ -40,7 +40,7 @@ int main(){
     vec.push_back(4);
     vec.push_back(0);
     vec.push_back(8);
-    vec.push_back(7);
+    vec.push_back(7); // on MacOs vector cannot be defined like {1,2,3,4....}
     bsort(vec);
     for(auto x: vec){
         cout<<x<<' ';
